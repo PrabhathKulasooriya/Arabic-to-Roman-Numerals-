@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 20vh;
+}
+.container{
+    width: 50%;
+    min-width: 300px;
+    min-height: 50vh;
+    height: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #003161;
+    color: #f0f0f0;
+    gap: 50px;
+    position: relative;
+}
+label{
+    font-size: 24px;
+}
+#number{
+    width: 60%;
+    min-height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+}
+#convert-btn{
+    width: 40%;
+    height: 50px;
+    min-width: 100px;
+    border-radius: 20px;
+    font-size: 24px;
+    background-color: #003161;
+    color: #f0f0f0;
+    border: 2px solid #f0f0f0;
+}
+#output{
+    font-size: 24px;
+    border: 2px solid rgb(0, 255, 170);
+    background-color: #f0f0f0;
+    color:  #003161;
+    padding: 10px;
+    border-radius: 20px;
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
